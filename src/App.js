@@ -8,7 +8,7 @@ const App = () => {
    <div className="App">
      <BrowserRouter>
 <Switch>
-<Route path="/Home" component={Home} exact={true}> 
+<Route path="/national-park-service/Home" component={Home} exact={true}> 
 </Route>
 </Switch>
 </BrowserRouter>
