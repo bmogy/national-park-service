@@ -6,7 +6,7 @@ import {BrowserRouter,Route,Switch} from "react-router-dom"
 const App = () => {
   return (
    <div className="App">
-     <BrowserRouter>
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
      <h1>I love this job</h1>
 <Switch>
 <Route path="/" component={Home} exact={true}> 
