@@ -7,6 +7,7 @@ const App = () => {
   return (
    <div className="App">
      <BrowserRouter>
+     <h1>I love this job</h1>
 <Switch>
 <Route path="/" component={Home} exact={true}> 
 </Route>
