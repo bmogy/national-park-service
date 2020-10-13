@@ -6,19 +6,17 @@ import {BrowserRouter,Route,Switch} from "react-router-dom"
 const App = () => {
   return (
    <div className="App">
-     
-<h1>Hello World</h1>
-
+     <BrowserRouter>
+<Switch>
+<Route path="/Home" component={Home} exact={true}> 
+</Route>
+</Switch>
+</BrowserRouter>
     </div>
   );
 }
 
 export default App;
 /*
-<BrowserRouter>
-<Switch>
-<Route path="/" component={Home} exact={true}> 
-</Route>
-</Switch>
-</BrowserRouter>
+
 */
