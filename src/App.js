@@ -5,15 +5,20 @@ import {BrowserRouter,Route,Switch} from "react-router-dom"
 
 const App = () => {
   return (
-    <div className="App">
+   <div className="App">
+     
+<h1>Hello World</h1>
+
+    </div>
+  );
+}
+
+export default App;
+/*
 <BrowserRouter>
 <Switch>
 <Route path="/" component={Home} exact={true}> 
 </Route>
 </Switch>
 </BrowserRouter>
-    </div>
-  );
-}
-
-export default App;
+*/
