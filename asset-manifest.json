@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/national-park-service/static/css/main.5f361e03.chunk.css",
+    "main.js": "/national-park-service/static/js/main.95e066cf.chunk.js",
+    "main.js.map": "/national-park-service/static/js/main.95e066cf.chunk.js.map",
+    "runtime-main.js": "/national-park-service/static/js/runtime-main.d57ae5df.js",
+    "runtime-main.js.map": "/national-park-service/static/js/runtime-main.d57ae5df.js.map",
+    "static/js/2.224f1daf.chunk.js": "/national-park-service/static/js/2.224f1daf.chunk.js",
+    "static/js/2.224f1daf.chunk.js.map": "/national-park-service/static/js/2.224f1daf.chunk.js.map",
+    "index.html": "/national-park-service/index.html",
+    "precache-manifest.b0b4137d9ceb7400333203645b53bb34.js": "/national-park-service/precache-manifest.b0b4137d9ceb7400333203645b53bb34.js",
+    "service-worker.js": "/national-park-service/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/national-park-service/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.224f1daf.chunk.js.LICENSE.txt": "/national-park-service/static/js/2.224f1daf.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/national-park-service/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d57ae5df.js",
+    "static/js/2.224f1daf.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.95e066cf.chunk.js"
+  ]
+}
