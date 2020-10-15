@@ -1,4 +1,6 @@
 .home{
-    height: 500px;
+    height: auto;
     width: auto;
+    margin: 0 100px;
+    text-align: justify;
 }

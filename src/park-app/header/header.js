@@ -5,7 +5,8 @@ const Header = () => {
     return (
         <div className="header-container">
             <ul>
-                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/" exact={true}>Home</NavLink></li>
+                <li><NavLink to="/events">Events</NavLink></li>
             </ul>
         </div>
     )
