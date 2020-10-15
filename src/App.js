@@ -12,7 +12,7 @@ const App = () => {
      <BrowserRouter basename={process.env.PUBLIC_URL}>
 <Switch>
 <Route path="/" component={Home} exact={true}></Route>
-<Route path="/events" component={Events}></Route>
+<Route path="/events" component={Events} exact="true"></Route>
 </Switch>
 </BrowserRouter>
     </div>
