@@ -54,7 +54,7 @@ class Parks extends Component {
             hours={park.operatingHours.map((hour) => {
                 return <div>
             <h3>{hour.name}</h3>
-           <h3>{hour.description}</h3>
+           <p>{hour.description}</p>
            <h2>Hours:</h2>
                 <ul>
                     <li>Sunday: {hour.standardHours.sunday}</li>
@@ -66,11 +66,14 @@ class Parks extends Component {
                     <li>Saturday:{hour.standardHours.saturday}</li>
                 </ul>
                 </div>
-                
                 })}
                 
-                email= {park.contacts.emailAddresses[0].emailAddress ===undefined ?  "" : park.contacts.emailAddresses[0].emailAddress}
-                phone={park.contacts.phoneNumbers[0].phoneNumber ===undefined ? " " : park.contacts.phoneNumbers[0].phoneNumber }
+                email= {park.contacts.emailAddresses.map((email) => {
+                return <p><strong>Email:</strong> {email.emailAddress}</p>
+                })}
+                phone={park.contacts.phoneNumbers.map((phone) => {
+                return <p><strong>Phone: </strong>{phone.phoneNumber}</p>
+                })}
             ></ParkInfo>
         }) : " "
         return (

@@ -24,8 +24,8 @@ const ParkInfo = (props) => {
     </div>
     </Col>
     <Col>
-    <h2>Email: {props.email}</h2>
-    <h2> Phone Number:{props.phone}</h2>
+    {props.email}
+    {props.phone}
     </Col>
     </Row>
     </Container>
