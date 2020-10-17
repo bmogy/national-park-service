@@ -3,6 +3,7 @@ import Header from "../../header/header"
 import Footer from "../../footer/footer"
 import EventsDispayBlock from "./EventsDisplayBlock";
 import {Container,Row} from "reactstrap"
+import {v4 as uuidv4} from "uuid"
 class Events extends Component{
     constructor(props){
 super(props); 
@@ -68,6 +69,7 @@ this.state={
                 <Row xs="1" sm="1" md="2" lg="3" xl="3">
                 {this.state.eventsInfoBlock.map((infoBlock)=>{
                 return  <EventsDispayBlock
+                key = {uuidv4()}
                 img={infoBlock.img}
                 title={infoBlock.title}
                 description={infoBlock.description}
