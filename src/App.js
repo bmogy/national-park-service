@@ -11,9 +11,9 @@ const App = () => {
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route path="gh-pages-url/" component={Home} exact={true}></Route>
-          <Route path="/gh-pages-url/events" component={Events} exact={true}></Route>
-          <Route path="gh-pages-url/parks" component={Parks}></Route>
+          <Route path="/" component={Home} exact={true}></Route>
+          <Route path="/events" component={Events} exact={true}></Route>
+          <Route path="/parks" component={Parks}></Route>
         </Switch>
       </BrowserRouter>
     </div>
