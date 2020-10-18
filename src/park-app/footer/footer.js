@@ -22,7 +22,7 @@ const Footer = () => {
                     <Col className="footer-block-03">
                         <a title="twitter" href="https://twitter.com/"><img src="./assets/img/Twitter Logo.jpg" alt="Twitter"></img></a>
                         <a title="facebook" href="https://facebook.com"><img src="./assets/img/Facebook-Logo.png" alt="Facebook"></img></a>
-                        <a title="linkedin" href="https://linkedin.com"><img src="./assets/img/linkedin logo.png" alt="LinkedIn"></img></a>
+                        <a title="linkedin" href="https://linkedin.com"><img src="./assets/img/linkedin-logo.png" alt="LinkedIn"></img></a>
 
                     </Col>
                 </Row>
