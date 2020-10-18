@@ -1,6 +1,7 @@
-.home{
-    height: auto;
-    width: auto;
-    margin: 0 100px;
-    text-align: justify;
+.home {
+  height: auto;
+  width: auto;
+  margin: 0 100px;
+  text-align: justify;
+  padding: 20px 0;
 }

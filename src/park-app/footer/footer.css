@@ -1,4 +1,16 @@
-.footer-container{
-    background-color: green;
-    height: 200px;
+.footer-container {
+  background-image: url("../../assats/img/woodFloor.jpg");
+  min-height: 190px;
+  max-height: 260px;
+  color: white;
+  margin-top: 50px;
+}
+.footer-block-03 img {
+  height: 50px;
+  display: inline-block;
+  margin: 20px 15px;
+}
+.footer-block-02 {
+  text-align: center;
+  margin: 20px 0;
 }
