@@ -7,6 +7,7 @@ import { Container, Row } from "reactstrap"
 import "./Parks.css"
 
 class Parks extends Component {
+    //creating my state
     state = {
         apikey: "1ErS7ogehFE5r5z4Zw6JQAoUfkMY5054WAg6l2va",
         npsUrl: "https://developer.nps.gov/api/v1/",
@@ -16,6 +17,7 @@ class Parks extends Component {
             height: "425px"
         }
     }
+    // setting up my function to grap the event key from each selected item in the options fiels and to set up a promice
     selectOptions = (e) => {
         e.preventDefault()
         const usState = e.target.value
@@ -29,6 +31,7 @@ class Parks extends Component {
         })
         return returnPromice
     }
+    // changes the styling and sends the promice to the state
     ParkData = (e) => {
         this.setState({
             styles: {
@@ -44,8 +47,10 @@ class Parks extends Component {
         })
     }
     render() {
+        //setting up a condition, just incase i get a undefined error message
         const parks = this.state.stateParks ? this.state.stateParks.map((park) => {
             return <ParkInfo
+                //i maped through the statepack array and sending the data into the parkinfo component via props
                 name={park.fullName}
                 description={park.description}
                 image={park.images.map((img) => {

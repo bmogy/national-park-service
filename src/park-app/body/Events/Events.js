@@ -7,7 +7,9 @@ import { v4 as uuidv4 } from "uuid"
 class Events extends Component {
     constructor(props) {
         super(props);
+        //setting up my state
         this.state = {
+            //creating an array of objects that includes the links,img,title, and description
             eventsInfoBlock: [
                 {
                     link: "https://www.nps.gov/aboutus/news/public-health-update.htm",
@@ -69,10 +71,15 @@ class Events extends Component {
                     <Row xs="1" sm="1" md="2" lg="3" xl="3">
                         {this.state.eventsInfoBlock.map((infoBlock) => {
                             return <EventsDispayBlock
+                                //setting up a unique id
                                 key={uuidv4()}
+                                //adding my imgages to the block
                                 img={infoBlock.img}
+                                //adding my title to the block
                                 title={infoBlock.title}
+                                // adding my description to the block
                                 description={infoBlock.description}
+                                //adding my link tonthe block
                                 link={infoBlock.link}
                             ></EventsDispayBlock>
                         })}
