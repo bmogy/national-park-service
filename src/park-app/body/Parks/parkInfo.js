@@ -4,7 +4,7 @@ const ParkInfo = (props) => {
     return (
         <Col>
 
-            <h1>{props.name}</h1>
+            <h2>{props.name}</h2>
             <p>{props.description}</p>
             <div>
                 {props.image}

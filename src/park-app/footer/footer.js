@@ -1,7 +1,9 @@
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import "./footer.css"
-import Twitter from "../../assats/img/woodFloor.jpg"
+import TwitterLogo from "../../assats/img/Twitter Logo.jpg"
+import FacebookLogo from "../../assats/img/Facebook-Logo.png"
+import LinkInLogo from "../../assats/img/linkedin-logo.png"
 import Map from "../../assats/Map/Map"
 const Footer = () => {
     return (
@@ -27,9 +29,9 @@ const Footer = () => {
 
                     </Col>
                     <Col className="footer-block-03">
-                        <a title="twitter" href="https://twitter.com/"><img src={Twitter} alt="Twitter"></img></a>
-                        <a title="facebook" href="https://facebook.com"><img src="./img/Facebook-Logo.png" alt="Facebook"></img></a>
-                        <a title="linkedin" href="https://linkedin.com"><img src="./assets/img/linkedin-logo.png" alt="LinkedIn"></img></a>
+                        <a title="twitter" href="https://twitter.com/"><img src={TwitterLogo} alt="Twitter"></img></a>
+                        <a title="facebook" href="https://facebook.com"><img src={FacebookLogo} alt="Facebook"></img></a>
+                        <a title="linkedin" href="https://linkedin.com"><img src={LinkInLogo} alt="LinkedIn"></img></a>
                     </Col>
                 </Row>
 

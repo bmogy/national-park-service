@@ -3,6 +3,14 @@ import Header from "../../header/header"
 import Footer from "../../footer/footer"
 import EventsDispayBlock from "./EventsDisplayBlock";
 import { Container, Row } from "reactstrap"
+import Flower from "../../../assats/img/flower.jpg"
+import dancing from "../../../assats/img/dancing.jpg"
+import stream from "../../../assats/img/stream.jpg"
+import outdoorsAct from "../../../assats/img/outdooract.jpg"
+import campFire from "../../../assats/img/campfire.jpg"
+import mountain from "../../../assats/img/mountains.jpg"
+import parkNews from "../../../assats/img/park-news.jpg"
+import webcam from "../../../assats/img/webcam.jpg"
 import { v4 as uuidv4 } from "uuid"
 class Events extends Component {
     constructor(props) {
@@ -13,49 +21,49 @@ class Events extends Component {
             eventsInfoBlock: [
                 {
                     link: "https://www.nps.gov/aboutus/news/public-health-update.htm",
-                    img: "./assets/img/flower.jpg",
+                    img: Flower,
                     title: "2019 Novel Coronavirus (COVID-19)",
                     description: "Learn about the National Park Service response to the coronavirus outbreak."
                 },
                 {
                     link: "https://www.nps.gov/subjects/npscelebrates/hispanic-heritage-month.htm",
-                    img: "./assets/img/dancing.jpg",
+                    img: dancing,
                     title: "Hispanic Heritage Month",
                     description: "Celebrate history, heritage, and contributions of Hispanic and Latino Americans both past and present."
                 },
                 {
                     link: "https://www.nps.gov/subjects/forests/leaf-peeping.htm",
-                    img: "./assets/img/stream.jpg",
+                    img: stream,
                     title: "A Palette of Autumn Colors",
                     description: "Enjoy a colorful display of fall foliage with in-person and virtual leaf peeping trips at national parks."
                 },
                 {
                     link: "https://www.nps.gov/subjects/legal/great-american-outdoors-act.htm",
-                    img: "./assets/img/outdooract.jpg",
+                    img: outdoorsAct,
                     title: "Great American Outdoor Act",
                     description: "The act, signed by President Trump on August 4, will permanently fund the Land and Water Conservation Fund and restore our national parks."
                 },
                 {
                     link: "https://www.nps.gov/articles/campfires.htm",
-                    img: "./assets/img/campfire.jpg",
+                    img: campFire,
                     title: "Campfire Safety",
                     description: "With National Fire Week in October, be familiar with best practices to have a fun, safe campfire experience."
                 },
                 {
                     link: "https://www.nps.gov/articles/000/getaway-elmo.htm",
-                    img: "./assets/img/mountains.jpg",
+                    img: mountain,
                     title: "This Month's National Park Getaway",
                     description: "Find a thousand years of history written in stone on the sandstone bluffs at El Morro National Monument in New Mexico."
                 },
                 {
                     link: "https://www.nps.gov/aboutus/news/index.htm",
-                    img: "./assets/img/park-news.jpg",
+                    img: parkNews,
                     title: "National Park News",
                     description: "Find the latest news and events, search for images and videos, and discover facts and figures about the national parks."
                 },
                 {
                     link: "https://www.nps.gov/media/multimedia-search.htm",
-                    img: "./assets/img/webcam.jpg",
+                    img: webcam,
                     title: "Photos, Videos, Webcams & More",
                     description: "Explore the national parks through multimedia. Search for photos, videos, webcams, and audio files on any topic."
                 }
